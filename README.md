@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-Complete Name: Glaisa Mae Curato
+Complete Name: Glaisa Mae Curato - Graphic Designer
 Year Level: 4th Year
 Set/Section: BSIT 4B
 Subject:  IT415 - Application Development and Emerging Technologies
