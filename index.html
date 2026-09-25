@@ -1,118 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glaisa Mae Curato | CV</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5ef">
+  <meta name="description" content="Glaisa Mae Curato — Information Technology student interested in graphic design, UI/UX design, and video editing.">
+  <title>Glaisa Mae Curato | Personal CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Glaisa Mae Curato</div>
-
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <div class="page-shell">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Glaisa Mae Curato home">GMC<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+      <a class="button nav-button" href="mailto:glaisa06292004@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
     </nav>
-
-    <!-- Hero Section -->
-    <header class="hero">
+    <main id="home">
+      <header class="hero">
         <div class="hero-content">
-            <p class="greeting">Hello, I'm</p>
-            <h1>Glaisa Mae Curato</h1>
-            <h2>4th Year BS Information Technology Student</h2>
-
-            <p class="intro">
-                I am a 4th-year Information Technology student interested in
-                creative and design-related work. I enjoy creating visual
-                designs, user interfaces, and video content while continuously
-                developing my technical and creative skills.
-            </p>
-
-            <a href="#about" class="button">View My CV</a>
+          <p class="eyebrow">A little creativity. A lot of curiosity.</p>
+          <h1>Hi, I’m<br><span>Glaisa Mae<br>Curato</span><span class="period">.</span></h1>
+          <p class="hero-role">4th Year BS Information Technology Student<br>based in <strong>Panabo City, Philippines.</strong></p>
+          <p class="intro">I enjoy creating visual designs, user interfaces, and video content while continuously developing my technical and creative skills.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#skills">Explore my skills <span aria-hidden="true">↗</span></a><a class="button" href="#about">About me <span aria-hidden="true">♡</span></a></div>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="section-title">
-            <span>01</span>
-            <h2>About Me</h2>
+        <div class="hero-visual">
+          <div class="portrait-wrap">
+            <!-- Replace assets/profile-placeholder.svg with your own photo to publish it for everyone. -->
+            <img id="profile-photo" class="portrait" src="assets/profile-placeholder.svg" alt="Illustrated profile placeholder for Glaisa Mae Curato" width="560" height="560">
+            <label class="photo-control" for="photo-upload"><span aria-hidden="true">↥</span> Change photo</label>
+            <input class="visually-hidden" type="file" id="photo-upload" accept="image/jpeg,image/png,image/webp">
+          </div>
+          <div class="profile-note"><p class="note-label"><span class="status-dot"></span> Learning & creating</p><p>Exploring the space between<br><strong>technology and design.</strong></p><a href="#education">Get to know me <span class="circle-arrow" aria-hidden="true">↗</span></a></div>
+          <p id="photo-status" class="photo-status" role="status"></p>
         </div>
-
-        <div class="card">
-            <p>
-                I am a Bachelor of Science in Information Technology student
-                currently in my fourth year. I am interested in Graphic Design,
-                UI/UX Design, and Video Editing. I enjoy learning new tools
-                and creating designs that are simple, useful, and visually
-                appealing.
-            </p>
+      </header>
+      <div class="tool-strip" aria-label="My creative tools"><span class="tools-label">My creative toolkit</span><span class="tool-name">Canva</span><span class="tool-name">Figma</span><span class="tool-name"><b class="tool-icon">Ps</b> Photoshop</span><span class="tool-name">CapCut</span><span class="tool-name code-tool">&lt;/&gt; HTML & CSS</span></div>
+      <section id="skills" class="skills-section">
+        <div class="section-heading"><div><p class="eyebrow">What I enjoy</p><h2>Creative thinking.<br>Digital possibilities.</h2></div><span class="section-aside">My skills & interests <span aria-hidden="true">↙</span></span></div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-art graphic-art" aria-hidden="true"><span class="art-tag">Visual Design</span><div class="design-sheet"><span>FORM<br>& FEEL<span class="design-dot">.</span></span><div class="design-orbit"></div><small>COLOR · TYPE · COMPOSITION</small></div><div class="swatch-stack"><i></i><i></i><i></i></div></div><div class="skill-caption"><div><h3>Graphic Design</h3><p>Visual Design · Canva · Adobe Photoshop</p></div><span class="circle-arrow" aria-hidden="true">↗</span></div></article>
+          <article class="skill-card"><div class="skill-art interface-art" aria-hidden="true"><span class="art-tag">UI/UX Design</span><div class="mini-browser"><div class="browser-bar"><i></i><i></i><i></i></div><div class="mock-nav">STUDIO<span>☰</span></div><div class="mock-content"><div><b>Simple.<br>Useful.<br>Beautiful.</b><span class="mock-button"></span></div><div class="mock-shape"></div></div><div class="mock-lines"></div></div></div><div class="skill-caption"><div><h3>UI/UX Design</h3><p>Figma · HTML & CSS</p></div><span class="circle-arrow" aria-hidden="true">↗</span></div></article>
+          <article class="skill-card"><div class="skill-art video-art" aria-hidden="true"><span class="art-tag">Video Editing</span><div class="video-window"><div class="video-scene"><span class="sun"></span><span class="hill hill-one"></span><span class="hill hill-two"></span><span class="play-icon">▶</span></div><div class="timeline"><i></i><i></i><i></i><i></i><span></span></div></div><span class="video-spark">✳</span></div><div class="skill-caption"><div><h3>Video Editing</h3><p>Video content · CapCut</p></div><span class="circle-arrow" aria-hidden="true">↗</span></div></article>
         </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <div class="section-title">
-            <span>02</span>
-            <h2>Education</h2>
-        </div>
-
-        <div class="education-card">
-            <h3>Bachelor of Science in Information Technology</h3>
-            <p class="school">Davao del Norte State College</p>
-            <p>4th Year | BSIT 4B</p>
-        </div>
-
-        <div class="education-card">
-            <h3>Senior High School - ICT Strand</h3>
-            <p class="school">Computer Systems Servicing (CSS)</p>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="section-title">
-            <span>03</span>
-            <h2>Skills</h2>
-        </div>
-
-        <div class="skills-container">
-            <div class="skill">Graphic Design</div>
-            <div class="skill">UI/UX Design</div>
-            <div class="skill">Video Editing</div>
-            <div class="skill">HTML & CSS</div>
-            <div class="skill">Visual Design</div>
-            <div class="skill">Canva</div>
-            <div class="skill">Figma</div>
-            <div class="skill">Adobe Photoshop</div>
-            <div class="skill">CapCut</div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="section-title">
-            <span>04</span>
-            <h2>Contact</h2>
-        </div>
-
-        <div class="contact-card">
-            <p><strong>Email:</strong> glaisa06292004@gmail.com</p>
-            <p><strong>Location:</strong> Panabo City, Davao del Norte, Philippines</p>
-            <p><strong>GitHub:</strong> https://github.com/kkey-byte</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Glaisa Mae Curato | Personal CV</p>
-    </footer>
-
+      </section>
+      <section id="about" class="about-section"><div><p class="eyebrow">A little about me</p><h2>Curious by nature.<br>Creative at heart.</h2></div><div class="about-copy"><p>I am a Bachelor of Science in Information Technology student currently in my fourth year. I am interested in Graphic Design, UI/UX Design, and Video Editing.</p><p>I enjoy learning new tools and creating designs that are simple, useful, and visually appealing.</p></div></section>
+      <section id="education" class="education-section"><div class="section-heading"><div><p class="eyebrow">My learning journey</p><h2>Education</h2></div><span class="section-aside">Always growing <span aria-hidden="true">↗</span></span></div><div class="education-grid"><article class="education-card"><span class="education-number">01 / COLLEGE</span><span class="education-badge">4th Year · BSIT 4B</span><h3>Bachelor of Science in<br>Information Technology</h3><p>Davao del Norte State College</p></article><article class="education-card"><span class="education-number">02 / SENIOR HIGH SCHOOL</span><h3>Information & Communications<br>Technology Strand</h3><p>Computer Systems Servicing (CSS)</p></article></div></section>
+      <section id="contact" class="contact-section"><div><p class="eyebrow">Get in touch</p><h2>Let’s create something<br>meaningful together<span>.</span></h2></div><div class="contact-details"><a class="email-link" href="mailto:glaisa06292004@gmail.com">glaisa06292004@gmail.com <span aria-hidden="true">↗</span></a><p>Panabo City, Davao del Norte, Philippines</p><a class="github-link" href="https://github.com/kkey-byte" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+    <footer><p>© 2026 Glaisa Mae Curato</p><p>Personal CV <span aria-hidden="true">✳</span> Made with a creative spirit</p><a href="#home">Back to top ↑</a></footer>
+  </div>
 </body>
 </html>
